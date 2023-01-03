@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import './Header.css';
-import men from '../../assets/images/men.png';
 import { AiOutlineGithub } from 'react-icons/ai';
+import men from '../../assets/images/men.png';
 
+/* eslint-disable */
 const Header = () => {
   // scrolling header at the top of the page
   window.addEventListener('scroll', () => {
