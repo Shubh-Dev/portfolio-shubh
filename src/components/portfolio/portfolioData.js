@@ -2,9 +2,9 @@ const PortfolioData = [
   {
     id: 1,
     category: 'Web site',
-    tech: 'React',
-    title: 'Cloud App',
-    image: 'https://raw.githubusercontent.com/sentayhu19/Portfolio/Portfolio/src/assets/images/project-screenshoot/cloud.png',
+    tech: 'Ruby on Rails | JavaScript | React | Redux',
+    title: 'Dream Rent',
+    image: 'https://raw.githubusercontent.com/Shubh-Dev/portfolio-shubh/src/assets/images/project-screenshoot/dream-rent-2.png',
     description: 'A Cloud Management website that has support and service pages built with TailwindCSS.',
     seelive: 'https://cloud-app-with-tailwind.vercel.app/',
     seesource: 'https://github.com/sentayhu19/Cloud-app-with-tailwind',
