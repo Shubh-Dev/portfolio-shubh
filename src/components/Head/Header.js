@@ -80,7 +80,7 @@ const Header = () => {
               </li>
               <li>
                 {' '}
-                <Link
+                {/* <Link
                   activeClass="active"
                   className="headerlinks"
                   to="blog"
@@ -91,7 +91,7 @@ const Header = () => {
                 >
                   {' '}
                   Blog
-                </Link>
+                </Link> */}
               </li>
               <li>
                 <button type="button" className="home-btn">
