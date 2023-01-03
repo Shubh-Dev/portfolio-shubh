@@ -10,7 +10,7 @@ const Resume = () => (
       <div className="container top">
         <div className="heading text-center">
           <h1>My Resume</h1>
-          <a href="https://docs.google.com/document/d/e/2PACX-1vRgbnsC2XTd5ZLDGkqV3WwQUlAh-AyaVJgp-HP0-9YFlPlC2RMAJU9bR4yFGGgHkCcqDO4m-4ygl3r9/pub" target="_blank" rel="noreferrer">
+          <a href="https://docs.google.com/document/d/1w9CV2EPFp9fpLeo240D0VUVpUhJWoFWGstz7aLwYwdg/edit?usp=sharing" target="_blank" rel="noreferrer">
             <button type="button" className="btn_shadow get-resume" data-aos="flip-right">Get my full resume</button>
           </a>
         </div>
@@ -18,7 +18,7 @@ const Resume = () => (
         <div className="content-section mtop d_flex">
           <div className="left">
             <div className="heading">
-              <h1>Education Quality</h1>
+              <h1> Education</h1>
             </div>
 
             <div className="content">
@@ -32,7 +32,7 @@ const Resume = () => (
           </div>
           <div className="left">
             <div className="heading">
-              <h1>Job Experience</h1>
+              <h1> Experience</h1>
             </div>
 
             <div className="content">

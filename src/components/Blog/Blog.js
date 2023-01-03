@@ -10,7 +10,7 @@ const Blog = () => (
     <section className="Portfolio Blog" id="blog">
       <div className="container top">
         <div className="heading text-center">
-          <h4>VISIT MY BLOG AND KEEP YOUR FEEDBACK</h4>
+          <h4>Visit My Blogs</h4>
           <h1>My Blog</h1>
         </div>
 

@@ -10,17 +10,5 @@ const BlogApi = [
     desc_three: 'We have many different features on this package to give developers the flexibility so that we will generate based on the needs of the programmer. we will discuss more on the features in detail later.We used Typescript and JavaScript to build the packageTypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.',
     link: 'https://medium.com/@sentayhu19/randomized-string-node-module-package-901cfe491b55',
   },
-  {
-    id: 2,
-    image: 'https://miro.medium.com/max/1100/1*z1FM4IvyhUwG1UVNeFkZiQ.jpeg',
-    date: '15 May, 2022',
-    title_one: 'Modern Cryptography ',
-    desc_one: 'Hello, everyone, We will be discussing modern cryptography in general.So Cryptography can be defined as the process of concealing the contents of a message from all except those who know the key during its transit or storage. Modern cryptosystems utilize computationally complex algorithms and long cryptographic keys to meet the Cryptographic Goals of confidentiality, integrity, authentication, and nonrepudiation.',
-    title_two: '',
-    desc_two: '',
-    title_three: '',
-    desc_three: '',
-    link: 'https://medium.com/@sentayhu19/modern-cryptography-a856671fc381',
-  },
 ];
 export default BlogApi;

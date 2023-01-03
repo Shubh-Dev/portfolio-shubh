@@ -1,5 +1,8 @@
 import React from 'react';
 import './ContactMe.css';
+import { BsTwitter } from 'react-icons/bs';
+import { FaLinkedinIn } from 'react-icons/fa';
+import { AiOutlineGithub } from 'react-icons/ai';
 
 const Contact = () => (
   <>
@@ -7,7 +10,7 @@ const Contact = () => (
       <div className="container top">
         <div className="heading text-center">
           <h4>CONTACT</h4>
-          <h1 className="gradient__bg">Contact With Me</h1>
+          <h1 className="gradient__bg">Contact Me</h1>
         </div>
 
         <div className="content d_flex">
@@ -17,32 +20,32 @@ const Contact = () => (
                 <img src="https://www.quidel.com/sites/default/files/contact-me-button.png" className="contact-me-img" alt="" />
               </div>
               <div className="details">
-                <h1 className="gradient__text">Sentayhu Berhanu</h1>
+                <h1 className="gradient__text">Shubh Dev</h1>
                 <p className="gradient__text">Full-Stack devloper</p>
-                <p className="gradient__text">I am available for work. Connect with me via and call in to my account.</p>
+                <p className="gradient__text">I am available to get hired. Lets get connected</p>
                 {' '}
                 <br />
                 <p className="gradient__text">
                   Email:
-                  <a href="mailto:sentayhuberhanu19@gmail.com" className="email__hover"> sentayhuberhanu@gmail.com</a>
+                  <a href="shubh.scb@gmail.com" className="email__hover"> shubh.scb@gmail.com</a>
                 </p>
                 {' '}
                 <br />
                 <span className="lets-connect">LETS CONNECT</span>
                 <div className="button f_flex">
-                  <a href="https://twitter.com/VoltageBerhanu" target="_blank" rel="noreferrer">
+                  <a href="https://twitter.com/Shubh_M_das" target="_blank" rel="noreferrer">
                     <button type="button" className="btn_shadow" id="contact-box">
-                      <i className="fab fa-twitter" />
+                      <BsTwitter />
                     </button>
                   </a>
-                  <a href="https://www.linkedin.com/in/sentayhu-berhanu" target="_blank" rel="noreferrer">
+                  <a href="https://www.linkedin.com/in/shubhscb/" target="_blank" rel="noreferrer">
                     <button type="button" className="btn_shadow" id="contact-box">
-                      <i className="fab fa-linkedin" />
+                      <FaLinkedinIn />
                     </button>
                   </a>
-                  <a href="https://www.instagram.com/sentayhu_berhanu/" target="_blank" rel="noreferrer">
+                  <a href="https://github.com/Shubh-Dev" target="_blank" rel="noreferrer">
                     <button type="button" className="btn_shadow" id="contact-box">
-                      <i className="fab fa-instagram" />
+                      <AiOutlineGithub />
                     </button>
                   </a>
                 </div>
@@ -51,7 +54,7 @@ const Contact = () => (
           </div>
 
           <div className="right box_shodow" data-aos="slide-right">
-            <form action="https://formspree.io/f/xwkyolko" method="POST" id="form-cont" name="contactForm">
+            <form action="https://formspree.io/f/mknyrjvn" method="POST" id="form-cont" name="contactForm">
 
               <div className="input">
                 <input type="text" name="name" maxLength="40" required placeholder="Name" />
