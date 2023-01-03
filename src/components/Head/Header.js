@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import './Header.css';
 import { AiOutlineGithub } from 'react-icons/ai';
+import { FaBars, FaTimes } from 'react-icons/fa';
 import men from '../../assets/images/men.png';
 
 /* eslint-disable */
@@ -115,9 +116,9 @@ const Header = () => {
               onClick={() => setMobile(!Mobile)}
             >
               {Mobile ? (
-                <i className="fas fa-times close home-btn" />
+                <FaTimes className="fas fa-times close home-btn" />
               ) : (
-                <i className="fas fa-bars open" />
+                <FaBars className="fas fa-bars open" />
               )}
             </button>
           </div>

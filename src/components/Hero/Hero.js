@@ -1,12 +1,12 @@
 import React from 'react';
 import './hero.css';
 import { Typewriter } from 'react-simple-typewriter';
-import javascript from '../../assets/images/javascript.svg';
-import react from '../../assets/images/react.png';
-import rails from '../../assets/images/ruby-on-rails.svg';
 import { BsTwitter } from 'react-icons/bs';
 import { SiAngellist } from 'react-icons/si';
 import { FaLinkedinIn } from 'react-icons/fa';
+import javascript from '../../assets/images/javascript.svg';
+import react from '../../assets/images/react.png';
+import rails from '../../assets/images/ruby-on-rails.svg';
 
 const Hero = () => (
   <>
@@ -15,7 +15,7 @@ const Hero = () => (
         <div className="left hero-left top" data-aos="slide-left">
           <h3 className="welcome">WELCOME...</h3>
           <h1>
-            Hi, I'm
+            Hi, I&apos;m
             <span> Shubh Dev</span>
           </h1>
           <h2>
@@ -32,7 +32,10 @@ const Hero = () => (
             </span>
           </h2>
           <p>
-            I am a software developer who builds web apps using React, Redux, and Ruby on Rails. I graduated WLC with a PG degree and from Microverse as a full-stack web developer. I am passionate about building scalable web applications and I am always looking for new challenges.
+            I am a software developer who builds web apps using React, Redux, and Ruby on Rails.
+            I graduated WLC with a PG degree and from Microverse as a full-stack web developer.
+            I am passionate about building scalable web applications and I am always looking for
+            new challenges.
           </p>
           <div className="hero_btn d_flex">
             <div className="col_1">

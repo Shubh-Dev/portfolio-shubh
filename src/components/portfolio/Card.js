@@ -1,4 +1,8 @@
+/* eslint-disable */
 import React, { useState } from 'react';
+import { FaTimes } from 'react-icons/fa';
+import { AiOutlineCheck, AiOutlineArrowRight, AiOutlineGithub } from 'react-icons/ai';
+import PropTypes from 'prop-types';
 
 const Card = (props) => {
   const [modal, setModal] = useState(false);
@@ -21,7 +25,7 @@ const Card = (props) => {
         <div className="category d_flex flex-dir">
           <span onClick={toggleModal}>{props.category}</span>
           <label>
-            <i className="fa-solid fa-check" />
+            <AiOutlineCheck />
             {' '}
             {props.tech}
           </label>
@@ -29,7 +33,7 @@ const Card = (props) => {
         <div className="title">
           <h2 onClick={toggleModal}>{props.title}</h2>
           <a href="#popup" className="arrow" onClick={toggleModal}>
-            <i className="fas fa-arrow-right" />
+            <AiOutlineArrowRight />
           </a>
         </div>
       </div>
@@ -51,22 +55,22 @@ const Card = (props) => {
               </p>
               <div className="button f_flex mtop">
                 <a href={props.seelive} target="_blank" rel="noreferrer" className="btn btn-primary">
-                  <button type="button" className="btn_shadow">
+                  <button type="button" className="btn_shadow project-detail-btn">
                     SEE LIVE
-                    <i className="fas fa-arrow-right" />
+                    <AiOutlineArrowRight />
 
                   </button>
                 </a>
 
                 <a href={props.seesource} target="_blank" rel="noreferrer" className="btn btn-secondary">
-                  <button type="button" className="btn_shadow">
+                  <button type="button" className="btn_shadow project-detail-btn">
                     SEE CODE
-                    <i className="fab fa-github" />
+                    <AiOutlineGithub />
                   </button>
                 </a>
               </div>
               <button type="button" className="close-modal btn_shadow" onClick={toggleModal}>
-                <i className="fas fa-times" />
+                <FaTimes />
               </button>
             </div>
           </div>
@@ -77,3 +81,13 @@ const Card = (props) => {
 };
 
 export default Card;
+
+Card.propTypes = {
+  image: PropTypes.string.isRequired,
+  category: PropTypes.string.isRequired,
+  tech: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  seelive: PropTypes.string.isRequired,
+  seesource: PropTypes.string.isRequired,
+};

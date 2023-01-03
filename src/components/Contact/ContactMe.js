@@ -9,6 +9,7 @@ const Contact = () => (
     <section className="gradient__bg Contact" id="contact">
       <div className="container top">
         <div className="heading text-center">
+          <br />
           <h4>CONTACT</h4>
           <h1 className="gradient__bg">Contact Me</h1>
         </div>

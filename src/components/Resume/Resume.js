@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react';
 import { generate } from 'randomized-string';
 import './Resume.css';

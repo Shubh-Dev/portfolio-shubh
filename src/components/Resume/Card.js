@@ -1,4 +1,6 @@
+/* eslint-disable */
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Card = (props) => (
   <>
@@ -19,3 +21,10 @@ const Card = (props) => (
 );
 
 export default Card;
+
+Card.propTypes = {
+  title: PropTypes.string.isRequired,
+  year: PropTypes.string.isRequired,
+  rate: PropTypes.string.isRequired,
+  desc: PropTypes.string.isRequired,
+};
