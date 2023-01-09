@@ -60,6 +60,7 @@ button {
   color: #000;
   background: linear-gradient(145deg, #e2e8ec, #fff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #fff;
+  margin-top: 1rem;
 }
 
 .btn_shadow:hover {
@@ -78,9 +79,9 @@ button {
   margin-top: 50px;
 }
 
-.mtop {
-  margin-top: 80px;
-}
+/* .mtop {
+  margin-top: 30px;
+} */
 
 .heading {
   margin: 50px 0 50px 0;
@@ -131,11 +132,11 @@ input {
 
 /* ----------Footer--------- */
 footer {
-  margin: 20% 0 10% 0;
+  margin: 0px 0 20px 0;
 }
 
 footer p {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 /* ----------Footer--------- */

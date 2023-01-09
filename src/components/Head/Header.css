@@ -1,5 +1,5 @@
 header {
-  height: 10vh;
+  min-height: 13vh; 
   line-height: 10vh;
 }
 
@@ -26,8 +26,12 @@ a:active {
   cursor: pointer;
 }
 
+.navlink {
+  padding-bottom: 10px;
+}
+
 header .container {
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
 header ul li {
@@ -86,6 +90,10 @@ header ul li a:hover {
     padding-top: 30px;
   }
 
+  .logo-wrap {
+    display: none;
+  }
+
   .nav-links-mobile {
     position: absolute;
     display: block;
@@ -138,6 +146,7 @@ header ul li a:hover {
 
   .header.active {
     height: 10vh;
+    position: relative;
   }
 }
 

@@ -14,10 +14,10 @@ const Hero = () => (
       <div className="container top">
         <div className="left hero-left top" data-aos="slide-left">
           <h3 className="welcome">WELCOME...</h3>
-          <h1>
+          <h2>
             Hi, I&apos;m
             <span> Shubh Dev</span>
-          </h1>
+          </h2>
           <h2>
             <span>
               <Typewriter

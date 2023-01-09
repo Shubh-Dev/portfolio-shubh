@@ -1,5 +1,11 @@
 .Resume .heading h1 {
-  font-size: 40px;
+  font-size: 35px;
+}
+
+.Resume {
+  border: 1px solid #e6e7ea;
+  margin: 1rem auto;
+  width: 95%;
 }
 
 .Resume .content {
@@ -89,6 +95,11 @@
   border-radius: 50%;
   z-index: 5;
   transition: 0.5s;
+}
+
+.resume-stack {
+  padding-left: 10px;
+  padding-top: 22px;
 }
 
 .Resume .box:hover.box::before {

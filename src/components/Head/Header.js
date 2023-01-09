@@ -80,18 +80,6 @@ const Header = () => {
               </li>
               <li>
                 {' '}
-                {/* <Link
-                  activeClass="active"
-                  className="headerlinks"
-                  to="blog"
-                  spy
-                  smooth
-                  offset={-140}
-                  duration={500}
-                >
-                  {' '}
-                  Blog
-                </Link> */}
               </li>
               <li>
                 <button type="button" className="home-btn">
@@ -106,7 +94,7 @@ const Header = () => {
               </li>
               <li>
                 <button type="button" className="home-btn">
-                  <a href="#contact">Hire Me</a>
+                  <a href="#contact">Contact Me</a>
                 </button>
               </li>
             </ul>
