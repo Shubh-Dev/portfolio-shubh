@@ -32,10 +32,10 @@ const Hero = () => (
             </span>
           </h2>
           <p>
-            I am a software developer who builds web apps using React, Redux, and Ruby on Rails.
-            I graduated WLC with a PG degree and from Microverse as a full-stack web developer.
-            I am passionate about building scalable web applications and I am always looking for
-            new challenges.
+            I am a full-stack software developer who builds web apps using React, Redux, and Ruby
+            on Rails. I graduated from WLC with a PG degree and from Microverse as a full-stack web
+            developer. I am passionate about building scalable web applications and I am always
+            looking for new challenges.
           </p>
           <div className="hero_btn d_flex">
             <div className="col_1">
