@@ -7,7 +7,7 @@ const PortfolioData = [
   {
     id: 1,
     category: 'Web site',
-    tech: 'Ruby on Rails | JavaScript | React | Redux',
+    tech: 'Ruby on Rails | React | Redux | PostgreSQL',
     title: 'Dream Rent',
     image: dream,
     description: 'Dream Rent is a web application that allows users to book an appointment with the house owner',
