@@ -19,7 +19,7 @@ a:active {
 }
 
 .logo-wrap {
-  margin-top: 10px;
+  margin-top: 14px;
 }
 
 .headerlinks {
@@ -195,8 +195,8 @@ header ul li a:hover {
 }
 
 .outer-circle {
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   background: rgba(0, 0, 0, 0.1);
   box-shadow: 0 3px 4px rgb(77, 77, 77, 0.46);
   display: flex;
