@@ -15,6 +15,8 @@
 
 .Resume .box {
   padding: 40px;
+  margin-bottom: 40px;
+  position: relative;
 }
 
 .Resume hr {
@@ -33,11 +35,6 @@
 .Resume p {
   font-size: 18px;
   transition: 0.5s;
-}
-
-.Resume .box {
-  margin-bottom: 40px;
-  position: relative;
 }
 
 .Resume .btn_shadow:hover {
