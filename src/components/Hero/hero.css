@@ -10,6 +10,7 @@
 .hero h1 {
   font-size: 60px;
   font-weight: bold;
+  color: #6070ff;
 }
 
 .hero-left {
@@ -21,10 +22,6 @@
 }
 
 .welcome {
-  color: #6070ff;
-}
-
-.hero h1 {
   color: #6070ff;
 }
 

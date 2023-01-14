@@ -113,8 +113,6 @@ body.active-modal {
   min-width: 60%;
   z-index: 9999;
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #fff;
-  padding: 50px;
-  border-radius: 10px;
 }
 
 .project-detail-btn {

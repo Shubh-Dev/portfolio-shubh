@@ -54,7 +54,6 @@ header ul li a:hover {
   border-radius: 6px;
   transition: 0.3s all ease;
   cursor: pointer;
-  /* height: fit-content; */
   color: #6070ff;
   background: linear-gradient(145deg, #e2e8ec, #fff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #fff;
