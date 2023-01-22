@@ -51,7 +51,7 @@ const PortfolioData = [
     tech: 'JavaScript | CSS | Html',
     title: 'Web development school',
     image: webdev,
-    describtion: 'A website development school website. Users can get information about new admission, faculties, fees, course details, etc.',
+    description: 'A website development school website. Users can get information about new admission, faculties, fees, course details, etc.',
     seelive: 'https://shubh-dev.github.io/The-Capstone/',
     seesource: 'https://github.com/Shubh-Dev/Web-Development-Training-School.git',
   },
