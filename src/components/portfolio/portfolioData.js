@@ -2,7 +2,7 @@ import dream from '../../assets/images/project-screenshoot/dream.png';
 import corona from '../../assets/images/project-screenshoot/corona.png';
 import math from '../../assets/images/project-screenshoot/math.png';
 import space from '../../assets/images/project-screenshoot/space.png';
-import webdev from '../..assets/images/project-screenshoot/webdev.png';
+import webdev from '../../assets/images/project-screenshoot/webdev.png';
 
 const PortfolioData = [
   {
@@ -54,7 +54,6 @@ const PortfolioData = [
     describtion: 'A website development school website. Users can get information about new admission, faculties, fees, course details, etc.',
     seelive: 'https://shubh-dev.github.io/The-Capstone/',
     seesource: 'https://github.com/Shubh-Dev/Web-Development-Training-School.git',
-
   },
 ];
 export default PortfolioData;
