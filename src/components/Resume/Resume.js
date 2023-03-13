@@ -10,7 +10,7 @@ const Resume = () => (
     <section className="Resume" id="resume">
       <div className="container top">
         <div className="heading text-center">
-          <a href="#" target="_blank" rel="noreferrer">
+          <a href="https://docs.google.com/document/d/1MY4hvtXwAXVVuDe51GPyTU2CgZ2tjCsVSge_jkYg9qI/edit?usp=sharing" target="_blank" rel="noreferrer">
             <button type="button" className="btn_shadow get-resume">Get my resume</button>
           </a>
         </div>
