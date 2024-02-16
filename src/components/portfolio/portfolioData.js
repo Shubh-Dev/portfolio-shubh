@@ -2,6 +2,8 @@ import dream from '../../assets/images/project-screenshoot/dream.png';
 import corona from '../../assets/images/project-screenshoot/corona.png';
 import math from '../../assets/images/project-screenshoot/math.png';
 import space from '../../assets/images/project-screenshoot/space.png';
+import webdev from '../../assets/images/project-screenshoot/webdev.png';
+import book from '../../assets/images/project-screenshoot/book.png';
 
 const PortfolioData = [
   {
@@ -43,6 +45,26 @@ const PortfolioData = [
     description: 'Space Travelers is a web application that allows users to book rockets and join selected space missions for space travel.',
     seelive: 'https://travelers-hub-rich-shubh.netlify.app/',
     seesource: 'https://github.com/assadounto/space-x.git',
+  },
+  {
+    id: 5,
+    category: 'web site',
+    tech: 'JavaScript | CSS | Html',
+    title: 'Web development school',
+    image: webdev,
+    description: 'A website development school website. Users can get information about new admission, faculties, fees, course details, etc.',
+    seelive: 'https://shubh-dev.github.io/The-Capstone/',
+    seesource: 'https://github.com/Shubh-Dev/Web-Development-Training-School.git',
+  },
+  {
+    id: 6,
+    category: 'web site',
+    tech: 'React | Redux | API | CSS',
+    title: 'Bookstore',
+    image: book,
+    description: 'This website can post and get data from the book API. Users can create a new book, can see a list of book and delete books',
+    seelive: 'https://shubh-dev.github.io/The-Capstone/',
+    seesource: 'https://github.com/Shubh-Dev/react-bookstore-shubh.git',
   },
 ];
 export default PortfolioData;
