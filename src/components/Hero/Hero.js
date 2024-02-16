@@ -6,7 +6,6 @@ import { SiAngellist } from 'react-icons/si';
 import { FaLinkedinIn } from 'react-icons/fa';
 import javascript from '../../assets/images/javascript.svg';
 import react from '../../assets/images/react.png';
-import rails from '../../assets/images/ruby-on-rails.svg';
 
 const Hero = () => (
   <>
@@ -45,15 +44,16 @@ const Hero = () => (
             I am a full-stack software developer currently employed at
             Phenomenal Tech, where I contribute to the development of
             cutting-edge web applications. My tech stack includes Vue.js, Nuxt,
-            React, Laravel, Ruby on Rails, Supabase, Golang, and Node.js. I bring a wealth of
-            experience and expertise in building robust and scalable web
-            solutions. With a strong foundation acquired through formal
-            education and practical training, I am well-versed in utilizing
-            Front-End and Back-ENd technologies to create
-            seamless user experiences, I thrive on challenges and am always eager to explore new
-            opportunities in the ever-evolving field of web development. Feel
-            free to explore my portfolio and discover the projects that showcase
-            my skills and passion for crafting exceptional digital experiences.
+            React, Laravel, Ruby on Rails, Supabase, Golang, and Node.js. I
+            bring a wealth of experience and expertise in building robust and
+            scalable web solutions. With a strong foundation acquired through
+            formal education and practical training, I am well-versed in
+            utilizing Front-End and Back-ENd technologies to create seamless
+            user experiences, I thrive on challenges and am always eager to
+            explore new opportunities in the ever-evolving field of web
+            development. Feel free to explore my portfolio and discover the
+            projects that showcase my skills and passion for crafting
+            exceptional digital experiences.
           </p>
           <div className="hero_btn d_flex">
             <div className="col_1">
@@ -65,7 +65,11 @@ const Hero = () => (
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button type="button" className="btn_shadow" aria-label="Twitter">
+                  <button
+                    type="button"
+                    className="btn_shadow"
+                    aria-label="Twitter"
+                  >
                     <BsTwitter />
                   </button>
                 </a>
@@ -75,7 +79,11 @@ const Hero = () => (
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button type="button" className="btn_shadow" aria-label="AngelList">
+                  <button
+                    type="button"
+                    className="btn_shadow"
+                    aria-label="AngelList"
+                  >
                     <SiAngellist />
                   </button>
                 </a>
@@ -85,7 +93,11 @@ const Hero = () => (
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button type="button" className="btn_shadow" aria-label="LinkedIn">
+                  <button
+                    type="button"
+                    className="btn_shadow"
+                    aria-label="LinkedIn"
+                  >
                     <FaLinkedinIn />
                   </button>
                 </a>
@@ -100,12 +112,55 @@ const Hero = () => (
                 <img src={react} alt="skil" />
               </button>
               <button
+                title="Vue.js"
+                type="button"
+                className="btn_shadow"
+                aria-label="Vuejs"
+              >
+                <img src="/vue.png" alt="skill" />
+              </button>
+              <button
+                title="Laravel"
+                type="button"
+                className="btn_shadow"
+                aria-label="Laravel"
+              >
+                <img src="/laravel.jpg" alt="skill" />
+              </button>
+              <br />
+              <button
                 title="Ruby on Rails"
                 type="button"
                 className="btn_shadow"
+                aria-label="Ruby on Rails"
               >
-                <img src={rails} alt="skil" />
+                <img src="/rubyonrails.png" alt="skil" />
               </button>
+              <button
+                title="Node.js"
+                type="button"
+                className="btn_shadow"
+                aria-label="Nodejs"
+              >
+                <img src="/nodejs.png" alt="skill" />
+              </button>
+              <button
+                title="sql"
+                type="button"
+                className="btn_shadow"
+                aria-label="sql"
+              >
+                <img src="/sql.png" alt="skill" />
+              </button>
+              <button
+                title="Supabase"
+                type="button"
+                className="btn_shadow"
+                aria-label="Supabase"
+              >
+                <img src="/supabase.png" alt="skill" />
+              </button>
+
             </div>
           </div>
         </div>
