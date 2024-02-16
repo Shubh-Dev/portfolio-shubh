@@ -65,7 +65,7 @@ const Hero = () => (
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button type="button" className="btn_shadow">
+                  <button type="button" className="btn_shadow" aria-label="Twitter">
                     <BsTwitter />
                   </button>
                 </a>
@@ -75,7 +75,7 @@ const Hero = () => (
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button type="button" className="btn_shadow">
+                  <button type="button" className="btn_shadow" aria-label="AngelList">
                     <SiAngellist />
                   </button>
                 </a>
@@ -85,7 +85,7 @@ const Hero = () => (
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button type="button" className="btn_shadow">
+                  <button type="button" className="btn_shadow" aria-label="LinkedIn">
                     <FaLinkedinIn />
                   </button>
                 </a>

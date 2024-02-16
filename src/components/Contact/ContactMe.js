@@ -34,18 +34,18 @@ const Contact = () => (
                 <br />
                 <span className="lets-connect">LETS CONNECT</span>
                 <div className="button f_flex">
-                  <a href="https://twitter.com/Shubh_M_das" target="_blank" rel="noreferrer">
-                    <button type="button" className="btn_shadow" id="contact-box">
+                  <a title="Twitter" href="https://twitter.com/Shubh_M_das" target="_blank" rel="noreferrer">
+                    <button type="button" className="btn_shadow" id="contact-box" aria-label="Twitter">
                       <BsTwitter />
                     </button>
                   </a>
-                  <a href="https://www.linkedin.com/in/shubhscb/" target="_blank" rel="noreferrer">
-                    <button type="button" className="btn_shadow" id="contact-box">
+                  <a title="LinkedIn" href="https://www.linkedin.com/in/shubhscb/" target="_blank" rel="noreferrer">
+                    <button type="button" className="btn_shadow" id="contact-box" aria-label="LinkedIn">
                       <FaLinkedinIn />
                     </button>
                   </a>
-                  <a href="https://github.com/Shubh-Dev" target="_blank" rel="noreferrer">
-                    <button type="button" className="btn_shadow" id="contact-box">
+                  <a title="GitHub" href="https://github.com/Shubh-Dev" target="_blank" rel="noreferrer">
+                    <button type="button" className="btn_shadow" id="contact-box" aria-label="GitHub">
                       <AiOutlineGithub />
                     </button>
                   </a>
