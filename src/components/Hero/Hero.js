@@ -24,6 +24,7 @@ const Hero = () => (
                   'Professional Coder',
                   'Full-Stack Developer',
                   'Web Developer',
+                  'Software Engineer',
                 ]}
                 loop
                 cursor
