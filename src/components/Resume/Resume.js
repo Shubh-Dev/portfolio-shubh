@@ -10,8 +10,14 @@ const Resume = () => (
     <section className="Resume" id="resume">
       <div className="container top">
         <div className="heading text-center">
-          <a href="#" target="_blank" rel="noreferrer">
-            <button type="button" className="btn_shadow get-resume">Get my resume</button>
+          <a
+            href="https://docs.google.com/document/d/1xXK_2HZWgSUa3wvHYaZftfwunKKcQ0zNAzWRESK3dsY/edit?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button type="button" className="btn_shadow get-resume">
+              Get my resume
+            </button>
           </a>
         </div>
 
@@ -23,11 +29,18 @@ const Resume = () => (
 
             <div className="content">
               {ResumeApi.map((val, id) => {
-                if (val.category === 'education') {
-                  return <Card key={id} title={val.title} year={val.year} rate={val.rate} desc={val.desc} />;
+                if (val.category === "education") {
+                  return (
+                    <Card
+                      key={id}
+                      title={val.title}
+                      year={val.year}
+                      rate={val.rate}
+                      desc={val.desc}
+                    />
+                  );
                 }
               })}
-
             </div>
           </div>
           <div className="left">
@@ -37,8 +50,16 @@ const Resume = () => (
 
             <div className="content">
               {ResumeApi.map((val) => {
-                if (val.category === 'experience') {
-                  return <Card key={generate()} title={val.title} year={val.year} rate={val.rate} desc={val.desc} />;
+                if (val.category === "experience") {
+                  return (
+                    <Card
+                      key={generate()}
+                      title={val.title}
+                      year={val.year}
+                      rate={val.rate}
+                      desc={val.desc}
+                    />
+                  );
                 }
               })}
             </div>
