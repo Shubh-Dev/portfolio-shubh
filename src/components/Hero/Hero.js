@@ -50,7 +50,7 @@ const Hero = () => (
             scalable web solutions. With a strong foundation acquired through
             formal education and practical training, I am well-versed in
             utilizing Front-End and Back-ENd technologies to create seamless
-            user experiences, I thrive on challenges and am always eager to
+            user experiences. I thrive on challenges and am always eager to
             explore new opportunities in the ever-evolving field of web
             development. Feel free to explore my portfolio and discover the
             projects that showcase my skills and passion for crafting
