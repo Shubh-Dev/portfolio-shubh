@@ -117,4 +117,8 @@
   .welcome {
     padding-top: 100px;
   }
+
+  .hero {
+    padding-bottom: 15px;
+  }
 }
