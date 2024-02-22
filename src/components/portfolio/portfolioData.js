@@ -2,12 +2,34 @@ import dream from '../../assets/images/project-screenshoot/dream.png';
 import corona from '../../assets/images/project-screenshoot/corona.png';
 import math from '../../assets/images/project-screenshoot/math.png';
 import space from '../../assets/images/project-screenshoot/space.png';
+import marble from '../../assets/images/project-screenshoot/marble.png';
+import management from '../../assets/images/project-screenshoot/management.png';
 
 const PortfolioData = [
   {
+    id: 6,
+    category: 'Web site',
+    tech: 'Laravel | MySQL | Bootstrap | Livewire',
+    title: 'Marbleture management system',
+    image: management,
+    description: 'Marbleture management system is a web application that allows the company to manage their products, orders, invoice, subscrition, purchase order, sales, cateory, supplier, role management and customers. It is built using Laravel and MySQL.',
+    seelive: 'https://management.marbleture.com/',
+    seesource: 'https://github.com/blue-rigel/marbleture-management.git',
+  },
+  {
+    id: 5,
+    category: 'Web site',
+    tech: 'Vue | Supabase | Laravel | SQL | Tailwind',
+    title: 'Dream Rent',
+    image: marble,
+    description: 'Marbleture is a Singapore based company that crafts furnitures using 100% natural marble.',
+    seelive: 'https://marbleture.com/',
+    seesource: 'https://github.com/Marbleture/v2.git',
+  },
+  {
     id: 1,
     category: 'Web site',
-    tech: 'Ruby on Rails | React | Redux | PostgreSQL',
+    tech: 'Ruby on Rails | React | Redux | Postgres',
     title: 'Dream Rent',
     image: dream,
     description: 'Dream Rent is a web application that allows future tenants to book an appointment with the house owner to visit their dream home.',

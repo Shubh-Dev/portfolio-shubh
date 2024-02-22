@@ -6,10 +6,6 @@
   padding-bottom: 20px;
 }
 
-.grid {
-  border: 1px dashed red;
-}
-
 .Portfolio .box {
   border-radius: 10px;
   position: relative;
@@ -21,21 +17,17 @@
   color: black;
 }
 
-.Portfolio .img {
-  height: 300px;
-  overflow: hidden;
-  transition: 0.5s;
-}
-
-.Portfolio img {
+.box .img {
+  height: 300px; /* Adjust the height as needed */
   width: 100%;
-  border-radius: 10px;
-  transition: 0.5s;
+  overflow: hidden;
 }
 
-/* .Portfolio .box .img:hover img {
-  transform: scale(1.2);
-} */
+.box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 .Portfolio .category {
   margin: 20px 0 30px 0;
@@ -98,7 +90,7 @@ body.active-modal {
   right: 0;
   bottom: 0;
   position: fixed;
-  z-index: 9999;
+  z-index: 500;
 }
 
 .overlay {
@@ -107,16 +99,31 @@ body.active-modal {
 
 .modal-content {
   position: absolute;
+  display: flex;
   top: 12%;
-  left: 8%;
+  left: 15%;
+  right: 15%;
+  bottom: 12%;
   line-height: 1.4;
   background: #f0f3f5;
   padding: 14px 28px;
   border-radius: 3px;
   max-width: 85%;
   min-width: 60%;
-  z-index: 9999;
+  z-index: 600;
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #fff;
+}
+
+.modal-img {
+  width: 500px;
+  overflow: hidden;
+  z-index: 700;
+}
+
+.modal-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .project-detail-btn {
@@ -188,8 +195,11 @@ body.active-modal {
     margin-bottom: 20px;
   }
 
-  .modal .modal-img {
-    margin: 50px 0 50px 0;
+  .modal-img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    z-index: 700;
   }
 
   .modal-content {

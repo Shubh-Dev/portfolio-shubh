@@ -77,7 +77,7 @@ header ul li a:hover {
   height: 12vh;
   position: fixed;
   top: 0;
-  z-index: 1000;
+  z-index: 100;
   width: 100%;
   background-color: #ecf0f3;
   box-shadow: -1px 11px 24px -11px rgba(0, 0, 0, 0.75);
@@ -104,7 +104,7 @@ header ul li a:hover {
     width: 60%;
     height: 100vh;
     background-color: white;
-    z-index: 888;
+    z-index: 200;
   }
 
   header ul li {
@@ -126,7 +126,7 @@ header ul li a:hover {
     right: 20px;
     color: #6070ff;
     font-size: 25px;
-    z-index: 999;
+    z-index: 300;
   }
 
   .close {

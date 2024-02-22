@@ -1,8 +1,13 @@
 /* eslint-disable */
-import React, { useState } from 'react';
-import { FaTimes } from 'react-icons/fa';
-import { AiOutlineCheck, AiOutlineArrowRight, AiOutlineGithub } from 'react-icons/ai';
-import PropTypes from 'prop-types';
+import React, { useState } from "react";
+import { FaTimes } from "react-icons/fa";
+import {
+  AiOutlineCheck,
+  AiOutlineArrowRight,
+  AiOutlineGithub,
+} from "react-icons/ai";
+import PropTypes from "prop-types";
+import "./Portfolio.css";
 
 const Card = (props) => {
   const [modal, setModal] = useState(false);
@@ -12,22 +17,25 @@ const Card = (props) => {
   };
 
   if (modal) {
-    document.body.classList.add('active-modal');
+    document.body.classList.add("active-modal");
   } else {
-    document.body.classList.remove('active-modal');
+    document.body.classList.remove("active-modal");
   }
   return (
     <>
       <div className="box btn_shadow width" data-aos="fade-up">
         <div className="img">
-          <img src={props.image} alt="project screenshoot" onClick={toggleModal} />
+          <img
+            src={props.image}
+            className="img"
+            alt="project screenshoot"
+            onClick={toggleModal}
+          />
         </div>
         <div className="category d_flex flex-dir">
           <span onClick={toggleModal}>{props.category}</span>
           <label>
-            <AiOutlineCheck />
-            {' '}
-            {props.tech}
+            <AiOutlineCheck /> {props.tech}
           </label>
         </div>
         <div className="title">
@@ -42,34 +50,50 @@ const Card = (props) => {
       {modal && (
         <div className="modal">
           <div onClick={toggleModal} className="overlay" />
-          <div className="modal-content d_flex">
-            <div className="modal-img left">
-              <img src={props.image} alt="" />
+          <div className="modal-content">
+            <div className="modal-img">
+              <img className="modal-image" src={props.image} alt="" />
             </div>
             <div className="modal-text right">
               <span>Featured - Design</span>
               <h1>{props.title}</h1>
-              <p>
-                {props.description}
-                {' '}
-              </p>
+              <p>{props.description} </p>
               <div className="button f_flex mtop">
-                <a href={props.seelive} target="_blank" rel="noreferrer" className="btn btn-primary">
-                  <button type="button" className="btn_shadow project-detail-btn">
+                <a
+                  href={props.seelive}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-primary"
+                >
+                  <button
+                    type="button"
+                    className="btn_shadow project-detail-btn"
+                  >
                     SEE LIVE
                     <AiOutlineArrowRight />
-
                   </button>
                 </a>
 
-                <a href={props.seesource} target="_blank" rel="noreferrer" className="btn btn-secondary">
-                  <button type="button" className="btn_shadow project-detail-btn">
+                <a
+                  href={props.seesource}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="btn btn-secondary"
+                >
+                  <button
+                    type="button"
+                    className="btn_shadow project-detail-btn"
+                  >
                     SEE CODE
                     <AiOutlineGithub />
                   </button>
                 </a>
               </div>
-              <button type="button" className="close-modal btn_shadow" onClick={toggleModal}>
+              <button
+                type="button"
+                className="close-modal btn_shadow"
+                onClick={toggleModal}
+              >
                 <FaTimes />
               </button>
             </div>
