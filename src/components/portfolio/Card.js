@@ -56,8 +56,8 @@ const Card = (props) => {
             </div>
             <div className="modal-text right">
               <span>Featured - Design</span>
-              <h1>{props.title}</h1>
-              <p>{props.description} </p>
+              <h1 className="modal-headline">{props.title}</h1>
+              <p className="modal-description">{props.description} </p>
               <div className="button f_flex mtop">
                 <a
                   href={props.seelive}

@@ -100,10 +100,11 @@ body.active-modal {
 .modal-content {
   position: absolute;
   display: flex;
-  top: 12%;
-  left: 15%;
-  right: 15%;
-  bottom: 12%;
+  top: 4%;
+  left: 10%;
+  right: 10%;
+  bottom: 4%;
+  overflow: hidden;
   line-height: 1.4;
   background: #f0f3f5;
   padding: 14px 28px;
@@ -200,6 +201,10 @@ body.active-modal {
     height: 200px;
     overflow: hidden;
     z-index: 700;
+  }
+
+  .modal-headline {
+    font-size: 10px;
   }
 
   .modal-content {
