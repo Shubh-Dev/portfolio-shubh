@@ -30,14 +30,14 @@ const Header = () => {
           </div>
           <div className="navlink">
             <ul
-              className={Mobile ? 'nav-links-mobile' : 'link f_flex uppercase'}
-              onClick={() => setMobile(false)}
+              className={Mobile ? 'nav-links-mobile' : 'link f_flex uppercase'}  
             >
               <li>
                 {' '}
                 <Link
                   activeClass="active"
                   className="headerlinks"
+                  onClick={() => setMobile(false)}
                   to="home"
                   spy
                   smooth
@@ -53,6 +53,7 @@ const Header = () => {
                 <Link
                   activeClass="active"
                   className="headerlinks"
+                  onClick={() => setMobile(false)}
                   to="portfolio"
                   spy
                   smooth
@@ -68,6 +69,7 @@ const Header = () => {
                 <Link
                   activeClass="active"
                   className="headerlinks"
+                  onClick={() => setMobile(false)}
                   to="resume"
                   spy
                   smooth
