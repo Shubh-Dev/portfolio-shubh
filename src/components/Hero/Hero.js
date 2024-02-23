@@ -15,10 +15,10 @@ const Hero = () => (
           <h3 className="welcome">WELCOME...</h3>
           <h2>
             Hi, I&apos;m
-            <span> Shubh Dev</span>
+            <span> Shubh M Das</span>
           </h2>
           <h2>
-            <span>
+            <span className="typewriter-text">
               <Typewriter
                 words={[
                   'Professional Coder',
