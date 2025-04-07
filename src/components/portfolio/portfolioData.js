@@ -20,7 +20,7 @@ const PortfolioData = [
     id: 5,
     category: 'Web site',
     tech: 'Vue | Supabase | Laravel | SQL | Tailwind',
-    title: 'Dream Rent',
+    title: 'Marbleture',
     image: marble,
     description: 'Marbleture is a Singapore based company that crafts furnitures using 100% natural marble.',
     seelive: 'https://marbleture.com/',
